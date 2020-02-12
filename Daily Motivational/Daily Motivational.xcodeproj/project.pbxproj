@@ -21,6 +21,13 @@
 		1A9BBDA723F450C300AC7CF4 /* MotivationalCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9BBD9723F450C300AC7CF4 /* MotivationalCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A9BBDAA23F450C300AC7CF4 /* MotivationalCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9BBD9523F450C300AC7CF4 /* MotivationalCore.framework */; };
 		1A9BBDAB23F450C300AC7CF4 /* MotivationalCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9BBD9523F450C300AC7CF4 /* MotivationalCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A9BBDB423F45B5A00AC7CF4 /* MediaTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BBDB323F45B5A00AC7CF4 /* MediaTypeTests.swift */; };
+		1A9BBDB623F45C5500AC7CF4 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BBDB523F45C5500AC7CF4 /* MediaType.swift */; };
+		1A9BBDB723F45C5500AC7CF4 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BBDB523F45C5500AC7CF4 /* MediaType.swift */; };
+		1A9BBDC223F46F8300AC7CF4 /* Cat1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A9BBDC123F46F8300AC7CF4 /* Cat1.wav */; };
+		1A9BBDC423F46FC300AC7CF4 /* robot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A9BBDC323F46FC300AC7CF4 /* robot.jpg */; };
+		1A9BBDC623F4708000AC7CF4 /* license.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A9BBDC523F4707D00AC7CF4 /* license.md */; };
+		1A9BBDC823F4736B00AC7CF4 /* CuteCat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1A9BBDC723F4736B00AC7CF4 /* CuteCat.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +104,12 @@
 		1A9BBD9D23F450C300AC7CF4 /* MotivationalCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotivationalCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9BBDA423F450C300AC7CF4 /* MotivationalCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalCoreTests.swift; sourceTree = "<group>"; };
 		1A9BBDA623F450C300AC7CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9BBDB323F45B5A00AC7CF4 /* MediaTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTypeTests.swift; sourceTree = "<group>"; };
+		1A9BBDB523F45C5500AC7CF4 /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		1A9BBDC123F46F8300AC7CF4 /* Cat1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat1.wav; sourceTree = "<group>"; };
+		1A9BBDC323F46FC300AC7CF4 /* robot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = robot.jpg; sourceTree = "<group>"; };
+		1A9BBDC523F4707D00AC7CF4 /* license.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = license.md; sourceTree = "<group>"; };
+		1A9BBDC723F4736B00AC7CF4 /* CuteCat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CuteCat.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +215,7 @@
 			children = (
 				1A9BBD9723F450C300AC7CF4 /* MotivationalCore.h */,
 				1A9BBD9823F450C300AC7CF4 /* Info.plist */,
+				1A9BBDB523F45C5500AC7CF4 /* MediaType.swift */,
 			);
 			path = MotivationalCore;
 			sourceTree = "<group>";
@@ -209,10 +223,23 @@
 		1A9BBDA323F450C300AC7CF4 /* MotivationalCoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				1A9BBDBA23F4658100AC7CF4 /* TestMedia */,
 				1A9BBDA423F450C300AC7CF4 /* MotivationalCoreTests.swift */,
 				1A9BBDA623F450C300AC7CF4 /* Info.plist */,
+				1A9BBDB323F45B5A00AC7CF4 /* MediaTypeTests.swift */,
 			);
 			path = MotivationalCoreTests;
+			sourceTree = "<group>";
+		};
+		1A9BBDBA23F4658100AC7CF4 /* TestMedia */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BBDC723F4736B00AC7CF4 /* CuteCat.mp4 */,
+				1A9BBDC523F4707D00AC7CF4 /* license.md */,
+				1A9BBDC323F46FC300AC7CF4 /* robot.jpg */,
+				1A9BBDC123F46F8300AC7CF4 /* Cat1.wav */,
+			);
+			path = TestMedia;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +371,7 @@
 					};
 					1A9BBD9423F450C300AC7CF4 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					1A9BBD9C23F450C300AC7CF4 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -409,6 +437,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9BBDC623F4708000AC7CF4 /* license.md in Resources */,
+				1A9BBDC223F46F8300AC7CF4 /* Cat1.wav in Resources */,
+				1A9BBDC423F46FC300AC7CF4 /* robot.jpg in Resources */,
+				1A9BBDC823F4736B00AC7CF4 /* CuteCat.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9BBDB623F45C5500AC7CF4 /* MediaType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +486,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9BBDB723F45C5500AC7CF4 /* MediaType.swift in Sources */,
+				1A9BBDB423F45B5A00AC7CF4 /* MediaTypeTests.swift in Sources */,
 				1A9BBDA523F450C300AC7CF4 /* MotivationalCoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,6 +659,7 @@
 		1A9BBD8823F4508C00AC7CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EM4Q7Q559J;
@@ -642,6 +678,7 @@
 		1A9BBD8923F4508C00AC7CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EM4Q7Q559J;
@@ -744,6 +781,7 @@
 		1A9BBDAD23F450C300AC7CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -761,6 +799,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.marcofeltmann.MotivationalCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -771,6 +810,7 @@
 		1A9BBDAE23F450C300AC7CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
