@@ -27,7 +27,7 @@ class MotivationalTests: XCTestCase
         let resourceFileUrl = testBundle.url(forResource: "robot", withExtension: "jpg")!
         let media = MediaType.image(resourceFileUrl)
         
-        let motivational = Motivational(message: "Just be the one", media: media, tags: nil)
+        let motivational = Motivational(message: "Just be the one", media: media)
         
         XCTAssertEqual("Just be the one", motivational.message)
         XCTAssertEqual(media, motivational.media!)
@@ -50,10 +50,21 @@ class MotivationalTests: XCTestCase
     {
         let tags = [Tag(title: "author", limitation: "some MEME cat")]
         let media = MediaType.image(testBundle.url(forResource: "CuteCat", withExtension: "mp4")!)
-        let motivational = Motivational(message: "This is Great!", media: media, tags: tags)
+        let uuid = UUID()
+        let motivational = Motivational(uuid:uuid, message: "This is Great!", media: media, tags: tags)
 
         XCTAssertEqual("This is Great!", motivational.message)
         XCTAssertEqual(media, motivational.media!)
         XCTAssertEqual(tags, motivational.tags!)
+        XCTAssertEqual(uuid, motivational.uuid)
+    }
+    
+    func testInitialization_uuidDiffersInEach()
+    {
+        let firstMotivational = Motivational(message: "I am Number 1")
+        let secondMotivational = Motivational(message: "I am Number 1")
+        
+        XCTAssertNotEqual(firstMotivational.uuid, secondMotivational.uuid)
+        XCTAssertNotEqual(firstMotivational, secondMotivational)
     }
 }
