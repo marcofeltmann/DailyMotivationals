@@ -46,6 +46,17 @@ class MotivationalTests: XCTestCase
         XCTAssertNil(motivational.media)
     }
     
+    func testInitialization_allContentsButUUID_hasAll()
+    {
+        let tags = [Tag(title: "author", limitation: "some MEME cat")]
+        let media = MediaType.image(testBundle.url(forResource: "CuteCat", withExtension: "mp4")!)
+        let motivational = Motivational(message: "This is Great!", media: media, tags: tags)
+
+        XCTAssertEqual("This is Great!", motivational.message)
+        XCTAssertEqual(media, motivational.media!)
+        XCTAssertEqual(tags, motivational.tags!)
+    }
+    
     func testInitialization_allContentsProvided_hasAll()
     {
         let tags = [Tag(title: "author", limitation: "some MEME cat")]

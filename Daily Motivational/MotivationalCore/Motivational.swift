@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Motivational:Equatable {
+public struct Motivational:Equatable {
     let uuid:UUID
     let message: String
     var media: MediaType?
