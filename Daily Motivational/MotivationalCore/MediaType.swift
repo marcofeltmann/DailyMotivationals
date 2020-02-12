@@ -16,7 +16,7 @@ import Foundation
  * `audio` for audio playback
   */
 
-public enum MediaType {
+public enum MediaType: Equatable {
     /// Image Media Type for display with correspoding file URL
     case image(URL)
     

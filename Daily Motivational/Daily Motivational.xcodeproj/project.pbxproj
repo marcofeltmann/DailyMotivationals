@@ -10,6 +10,9 @@
 		1A9A2D6023F476C900E1A35F /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A2D5F23F476C900E1A35F /* Tag.swift */; };
 		1A9A2D6123F476C900E1A35F /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A2D5F23F476C900E1A35F /* Tag.swift */; };
 		1A9A2D6323F476DD00E1A35F /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A2D6223F476DD00E1A35F /* TagTests.swift */; };
+		1A9A2D6923F47EC900E1A35F /* MotivationalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A2D6823F47EC900E1A35F /* MotivationalTests.swift */; };
+		1A9A2D6B23F47F1400E1A35F /* Motivational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A2D6A23F47F1400E1A35F /* Motivational.swift */; };
+		1A9A2D6C23F47F1400E1A35F /* Motivational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A2D6A23F47F1400E1A35F /* Motivational.swift */; };
 		1A9BBD5E23F4508A00AC7CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BBD5D23F4508A00AC7CF4 /* AppDelegate.swift */; };
 		1A9BBD6023F4508A00AC7CF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BBD5F23F4508A00AC7CF4 /* SceneDelegate.swift */; };
 		1A9BBD6223F4508A00AC7CF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BBD6123F4508A00AC7CF4 /* ViewController.swift */; };
@@ -88,6 +91,8 @@
 /* Begin PBXFileReference section */
 		1A9A2D5F23F476C900E1A35F /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		1A9A2D6223F476DD00E1A35F /* TagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagTests.swift; sourceTree = "<group>"; };
+		1A9A2D6823F47EC900E1A35F /* MotivationalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalTests.swift; sourceTree = "<group>"; };
+		1A9A2D6A23F47F1400E1A35F /* Motivational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motivational.swift; sourceTree = "<group>"; };
 		1A9BBD5A23F4508A00AC7CF4 /* Daily Motivational.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Motivational.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9BBD5D23F4508A00AC7CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A9BBD5F23F4508A00AC7CF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -222,6 +227,7 @@
 				1A9BBD9823F450C300AC7CF4 /* Info.plist */,
 				1A9BBDB523F45C5500AC7CF4 /* MediaType.swift */,
 				1A9A2D5F23F476C900E1A35F /* Tag.swift */,
+				1A9A2D6A23F47F1400E1A35F /* Motivational.swift */,
 			);
 			path = MotivationalCore;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 				1A9BBDA623F450C300AC7CF4 /* Info.plist */,
 				1A9BBDB323F45B5A00AC7CF4 /* MediaTypeTests.swift */,
 				1A9A2D6223F476DD00E1A35F /* TagTests.swift */,
+				1A9A2D6823F47EC900E1A35F /* MotivationalTests.swift */,
 			);
 			path = MotivationalCoreTests;
 			sourceTree = "<group>";
@@ -382,7 +389,6 @@
 					};
 					1A9BBD9C23F450C300AC7CF4 = {
 						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = 1A9BBD5923F4508A00AC7CF4;
 					};
 				};
 			};
@@ -487,6 +493,7 @@
 			files = (
 				1A9A2D6023F476C900E1A35F /* Tag.swift in Sources */,
 				1A9BBDB623F45C5500AC7CF4 /* MediaType.swift in Sources */,
+				1A9A2D6B23F47F1400E1A35F /* Motivational.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +502,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9A2D6123F476C900E1A35F /* Tag.swift in Sources */,
+				1A9A2D6C23F47F1400E1A35F /* Motivational.swift in Sources */,
 				1A9BBDB723F45C5500AC7CF4 /* MediaType.swift in Sources */,
+				1A9A2D6923F47EC900E1A35F /* MotivationalTests.swift in Sources */,
 				1A9A2D6323F476DD00E1A35F /* TagTests.swift in Sources */,
 				1A9BBDB423F45B5A00AC7CF4 /* MediaTypeTests.swift in Sources */,
 				1A9BBDA523F450C300AC7CF4 /* MotivationalCoreTests.swift in Sources */,
@@ -861,7 +870,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Motivational.app/Daily Motivational";
 			};
 			name = Debug;
 		};
@@ -881,7 +889,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Motivational.app/Daily Motivational";
 			};
 			name = Release;
 		};

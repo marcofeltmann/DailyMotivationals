@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Tag {
+public struct Tag:Equatable {
     let title: String
     var limitation: String?
 }

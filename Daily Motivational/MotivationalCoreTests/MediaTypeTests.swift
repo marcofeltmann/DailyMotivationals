@@ -13,6 +13,7 @@ class MediaTypeTests: XCTestCase
     /// Conveniently store a reference to the test bundle for easier loading of test resource files.
     let testBundle = Bundle(for: MediaTypeTests.self)
 
+    //MARK: Testing runtime behaviour
     
     /* The folling tests are somewhat waste of time since they test behaviour which is guaranteed by the implementation.
      Implementation on the other hand is subject to change and we test for behaviour, not for implementation.
@@ -100,5 +101,72 @@ class MediaTypeTests: XCTestCase
         case let .video(fileUrl):
             XCTAssertEqual(movieFileUrl, fileUrl, "Returned file URL must match initialized file URL")
         }
+    }
+    //MARK: -
+
+
+    //MARK: Equality: Positive Tests
+    func testEquality_imageMedia_equalImageUrl_equalMediaType()
+    {
+        let image = MediaType.image(testBundle.url(forResource: "robot", withExtension: "jpg")!)
+        let sameImage = MediaType.image(testBundle.url(forResource: "robot", withExtension: "jpg")!)
+        
+        XCTAssertEqual(image, image)
+        XCTAssertEqual(image, sameImage)
+    }
+    
+    func testEquality_audioMedia_equalAudioUrl_equalMediaType()
+    {
+        let sound = MediaType.audio(testBundle.url(forResource: "Cat1", withExtension: "wav")!)
+        let sameSound = MediaType.audio(testBundle.url(forResource: "Cat1", withExtension: "wav")!)
+        
+        XCTAssertEqual(sound, sound)
+        XCTAssertEqual(sound, sameSound)
+    }
+    
+    func testEquality_videoMedia_equalVideoUrl_equalMediaType()
+    {
+        let movie = MediaType.video(testBundle.url(forResource: "CuteCat", withExtension: "mp4")!)
+        let sameMovie = MediaType.video(testBundle.url(forResource: "CuteCat", withExtension: "mp4")!)
+        
+        XCTAssertEqual(movie, movie)
+        XCTAssertEqual(movie, sameMovie)
+    }
+    
+    
+    //MARK: Equality: Negative Tests
+    func testEquality_differentTypes_equalFileUrl_differentMediaType()
+    {
+        let movie = MediaType.video(testBundle.url(forResource: "CuteCat", withExtension: "mp4")!)
+        let image = MediaType.image(testBundle.url(forResource: "CuteCat", withExtension: "mp4")!)
+        let sound = MediaType.audio(testBundle.url(forResource: "CuteCat", withExtension: "mp4")!)
+        
+        XCTAssertNotEqual(movie, image)
+        XCTAssertNotEqual(image, sound)
+        XCTAssertNotEqual(sound, movie)
+    }
+    
+    func testEquality_imageType_differentFileUrl_differentMediaType()
+    {
+        let image = MediaType.image(testBundle.url(forResource: "robot", withExtension: "jpg")!)
+        let differentImage = MediaType.image(testBundle.url(forResource: "CuteCat", withExtension: "mp4")!)
+        
+        XCTAssertNotEqual(image, differentImage)
+    }
+    
+    func testEquality_audioType_differentFileUrl_differentMediaType()
+    {
+        let sound = MediaType.audio(testBundle.url(forResource: "Cat1", withExtension: "wav")!)
+        let differentSound = MediaType.audio(testBundle.url(forResource: "CuteCat", withExtension: "mp4")!)
+        
+        XCTAssertNotEqual(sound, differentSound)
+    }
+    
+    func testEquality_videoType_differentFileUrl_differentMediaType()
+    {
+        let movie = MediaType.image(testBundle.url(forResource: "robot", withExtension: "jpg")!)
+        let differentMovie = MediaType.image(testBundle.url(forResource: "CuteCat", withExtension: "mp4")!)
+        
+        XCTAssertNotEqual(movie, differentMovie)
     }
 }
