@@ -5,6 +5,9 @@
       location = "group:docs">
    </FileRef>
    <FileRef
-      location = "group:/Users/mafe/Develop/DailyMotivationals/Daily Motivational/DailyMotivationalFramework.xcodeproj">
+       location = "group:DailyMotivationalFramework/DailyMotivationalFramework.xcodeproj">
+   </FileRef>
+   <FileRef
+       location = "group:DailyMotivationalApp/DailyMotivationalApp.xcodeproj">
    </FileRef>
 </Workspace>

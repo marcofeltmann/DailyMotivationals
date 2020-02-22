@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6AB26B62401604D00DFEF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AB26B52401604D00DFEF65 /* AppDelegate.swift */; };
+		F6AB26B82401604D00DFEF65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AB26B72401604D00DFEF65 /* SceneDelegate.swift */; };
+		F6AB26BA2401604D00DFEF65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AB26B92401604D00DFEF65 /* ContentView.swift */; };
+		F6AB26BC2401605400DFEF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AB26BB2401605400DFEF65 /* Assets.xcassets */; };
+		F6AB26BF2401605400DFEF65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AB26BE2401605400DFEF65 /* Preview Assets.xcassets */; };
+		F6AB26C22401605400DFEF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AB26C02401605400DFEF65 /* LaunchScreen.storyboard */; };
+		F6AB26CD2401605400DFEF65 /* DailyMotivationalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AB26CC2401605400DFEF65 /* DailyMotivationalAppTests.swift */; };
+		F6AB26D82401605400DFEF65 /* DailyMotivationalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AB26D72401605400DFEF65 /* DailyMotivationalAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6AB26C92401605400DFEF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6AB26AA2401604D00DFEF65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6AB26B12401604D00DFEF65;
+			remoteInfo = DailyMotivationalApp;
+		};
+		F6AB26D42401605400DFEF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6AB26AA2401604D00DFEF65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6AB26B12401604D00DFEF65;
+			remoteInfo = DailyMotivationalApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6AB26B22401604D00DFEF65 /* DailyMotivationalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyMotivationalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AB26B52401604D00DFEF65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6AB26B72401604D00DFEF65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6AB26B92401604D00DFEF65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6AB26BB2401605400DFEF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6AB26BE2401605400DFEF65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6AB26C12401605400DFEF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6AB26C32401605400DFEF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AB26C82401605400DFEF65 /* DailyMotivationalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyMotivationalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AB26CC2401605400DFEF65 /* DailyMotivationalAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMotivationalAppTests.swift; sourceTree = "<group>"; };
+		F6AB26CE2401605400DFEF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AB26D32401605400DFEF65 /* DailyMotivationalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyMotivationalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AB26D72401605400DFEF65 /* DailyMotivationalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMotivationalAppUITests.swift; sourceTree = "<group>"; };
+		F6AB26D92401605400DFEF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6AB26AF2401604D00DFEF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AB26C52401605400DFEF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AB26D02401605400DFEF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6AB26A92401604D00DFEF65 = {
+			isa = PBXGroup;
+			children = (
+				F6AB26B42401604D00DFEF65 /* DailyMotivationalApp */,
+				F6AB26CB2401605400DFEF65 /* DailyMotivationalAppTests */,
+				F6AB26D62401605400DFEF65 /* DailyMotivationalAppUITests */,
+				F6AB26B32401604D00DFEF65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6AB26B32401604D00DFEF65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6AB26B22401604D00DFEF65 /* DailyMotivationalApp.app */,
+				F6AB26C82401605400DFEF65 /* DailyMotivationalAppTests.xctest */,
+				F6AB26D32401605400DFEF65 /* DailyMotivationalAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6AB26B42401604D00DFEF65 /* DailyMotivationalApp */ = {
+			isa = PBXGroup;
+			children = (
+				F6AB26B52401604D00DFEF65 /* AppDelegate.swift */,
+				F6AB26B72401604D00DFEF65 /* SceneDelegate.swift */,
+				F6AB26B92401604D00DFEF65 /* ContentView.swift */,
+				F6AB26BB2401605400DFEF65 /* Assets.xcassets */,
+				F6AB26C02401605400DFEF65 /* LaunchScreen.storyboard */,
+				F6AB26C32401605400DFEF65 /* Info.plist */,
+				F6AB26BD2401605400DFEF65 /* Preview Content */,
+			);
+			path = DailyMotivationalApp;
+			sourceTree = "<group>";
+		};
+		F6AB26BD2401605400DFEF65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6AB26BE2401605400DFEF65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6AB26CB2401605400DFEF65 /* DailyMotivationalAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6AB26CC2401605400DFEF65 /* DailyMotivationalAppTests.swift */,
+				F6AB26CE2401605400DFEF65 /* Info.plist */,
+			);
+			path = DailyMotivationalAppTests;
+			sourceTree = "<group>";
+		};
+		F6AB26D62401605400DFEF65 /* DailyMotivationalAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6AB26D72401605400DFEF65 /* DailyMotivationalAppUITests.swift */,
+				F6AB26D92401605400DFEF65 /* Info.plist */,
+			);
+			path = DailyMotivationalAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6AB26B12401604D00DFEF65 /* DailyMotivationalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6AB26DC2401605400DFEF65 /* Build configuration list for PBXNativeTarget "DailyMotivationalApp" */;
+			buildPhases = (
+				F6AB26AE2401604D00DFEF65 /* Sources */,
+				F6AB26AF2401604D00DFEF65 /* Frameworks */,
+				F6AB26B02401604D00DFEF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyMotivationalApp;
+			productName = DailyMotivationalApp;
+			productReference = F6AB26B22401604D00DFEF65 /* DailyMotivationalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6AB26C72401605400DFEF65 /* DailyMotivationalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6AB26DF2401605400DFEF65 /* Build configuration list for PBXNativeTarget "DailyMotivationalAppTests" */;
+			buildPhases = (
+				F6AB26C42401605400DFEF65 /* Sources */,
+				F6AB26C52401605400DFEF65 /* Frameworks */,
+				F6AB26C62401605400DFEF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6AB26CA2401605400DFEF65 /* PBXTargetDependency */,
+			);
+			name = DailyMotivationalAppTests;
+			productName = DailyMotivationalAppTests;
+			productReference = F6AB26C82401605400DFEF65 /* DailyMotivationalAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6AB26D22401605400DFEF65 /* DailyMotivationalAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6AB26E22401605400DFEF65 /* Build configuration list for PBXNativeTarget "DailyMotivationalAppUITests" */;
+			buildPhases = (
+				F6AB26CF2401605400DFEF65 /* Sources */,
+				F6AB26D02401605400DFEF65 /* Frameworks */,
+				F6AB26D12401605400DFEF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6AB26D52401605400DFEF65 /* PBXTargetDependency */,
+			);
+			name = DailyMotivationalAppUITests;
+			productName = DailyMotivationalAppUITests;
+			productReference = F6AB26D32401605400DFEF65 /* DailyMotivationalAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6AB26AA2401604D00DFEF65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = MFS;
+				TargetAttributes = {
+					F6AB26B12401604D00DFEF65 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F6AB26C72401605400DFEF65 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F6AB26B12401604D00DFEF65;
+					};
+					F6AB26D22401605400DFEF65 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F6AB26B12401604D00DFEF65;
+					};
+				};
+			};
+			buildConfigurationList = F6AB26AD2401604D00DFEF65 /* Build configuration list for PBXProject "DailyMotivationalApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6AB26A92401604D00DFEF65;
+			productRefGroup = F6AB26B32401604D00DFEF65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6AB26B12401604D00DFEF65 /* DailyMotivationalApp */,
+				F6AB26C72401605400DFEF65 /* DailyMotivationalAppTests */,
+				F6AB26D22401605400DFEF65 /* DailyMotivationalAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6AB26B02401604D00DFEF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AB26C22401605400DFEF65 /* LaunchScreen.storyboard in Resources */,
+				F6AB26BF2401605400DFEF65 /* Preview Assets.xcassets in Resources */,
+				F6AB26BC2401605400DFEF65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AB26C62401605400DFEF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AB26D12401605400DFEF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6AB26AE2401604D00DFEF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AB26B62401604D00DFEF65 /* AppDelegate.swift in Sources */,
+				F6AB26B82401604D00DFEF65 /* SceneDelegate.swift in Sources */,
+				F6AB26BA2401604D00DFEF65 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AB26C42401605400DFEF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AB26CD2401605400DFEF65 /* DailyMotivationalAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AB26CF2401605400DFEF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AB26D82401605400DFEF65 /* DailyMotivationalAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6AB26CA2401605400DFEF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6AB26B12401604D00DFEF65 /* DailyMotivationalApp */;
+			targetProxy = F6AB26C92401605400DFEF65 /* PBXContainerItemProxy */;
+		};
+		F6AB26D52401605400DFEF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6AB26B12401604D00DFEF65 /* DailyMotivationalApp */;
+			targetProxy = F6AB26D42401605400DFEF65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6AB26C02401605400DFEF65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6AB26C12401605400DFEF65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6AB26DA2401605400DFEF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6AB26DB2401605400DFEF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6AB26DD2401605400DFEF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyMotivationalApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DailyMotivationalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.marcofeltmann.software.DailyMotivationalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6AB26DE2401605400DFEF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyMotivationalApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DailyMotivationalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.marcofeltmann.software.DailyMotivationalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6AB26E02401605400DFEF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DailyMotivationalAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.marcofeltmann.software.DailyMotivationalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyMotivationalApp.app/DailyMotivationalApp";
+			};
+			name = Debug;
+		};
+		F6AB26E12401605400DFEF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DailyMotivationalAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.marcofeltmann.software.DailyMotivationalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyMotivationalApp.app/DailyMotivationalApp";
+			};
+			name = Release;
+		};
+		F6AB26E32401605400DFEF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DailyMotivationalAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.marcofeltmann.software.DailyMotivationalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyMotivationalApp;
+			};
+			name = Debug;
+		};
+		F6AB26E42401605400DFEF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DailyMotivationalAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.marcofeltmann.software.DailyMotivationalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyMotivationalApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6AB26AD2401604D00DFEF65 /* Build configuration list for PBXProject "DailyMotivationalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6AB26DA2401605400DFEF65 /* Debug */,
+				F6AB26DB2401605400DFEF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6AB26DC2401605400DFEF65 /* Build configuration list for PBXNativeTarget "DailyMotivationalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6AB26DD2401605400DFEF65 /* Debug */,
+				F6AB26DE2401605400DFEF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6AB26DF2401605400DFEF65 /* Build configuration list for PBXNativeTarget "DailyMotivationalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6AB26E02401605400DFEF65 /* Debug */,
+				F6AB26E12401605400DFEF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6AB26E22401605400DFEF65 /* Build configuration list for PBXNativeTarget "DailyMotivationalAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6AB26E32401605400DFEF65 /* Debug */,
+				F6AB26E42401605400DFEF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6AB26AA2401604D00DFEF65 /* Project object */;
+}
