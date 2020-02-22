@@ -2,12 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:docs">
+      location = "group:DailyMotivationalApp/DailyMotivationalApp.xcodeproj">
    </FileRef>
    <FileRef
-       location = "group:DailyMotivationalFramework/DailyMotivationalFramework.xcodeproj">
+      location = "group:DailyMotivationalFramework/DailyMotivationalFramework.xcodeproj">
    </FileRef>
    <FileRef
-       location = "group:DailyMotivationalApp/DailyMotivationalApp.xcodeproj">
+      location = "group:PlaygroundBook/PlaygroundBook.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DailyMotivationalFramework/../docs/github-io.xcodeproj">
    </FileRef>
 </Workspace>

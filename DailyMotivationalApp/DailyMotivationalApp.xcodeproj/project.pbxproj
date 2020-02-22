@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0C4A2824017AAD00EA52CB /* MotivationalCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0C4A2724017AAD00EA52CB /* MotivationalCore.framework */; };
+		1A0C4A2924017AAD00EA52CB /* MotivationalCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0C4A2724017AAD00EA52CB /* MotivationalCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F6AB26B62401604D00DFEF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AB26B52401604D00DFEF65 /* AppDelegate.swift */; };
 		F6AB26B82401604D00DFEF65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AB26B72401604D00DFEF65 /* SceneDelegate.swift */; };
 		F6AB26BA2401604D00DFEF65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AB26B92401604D00DFEF65 /* ContentView.swift */; };
@@ -34,7 +36,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A0C4A2A24017AAD00EA52CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1A0C4A2924017AAD00EA52CB /* MotivationalCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A0C4A2724017AAD00EA52CB /* MotivationalCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MotivationalCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AB26B22401604D00DFEF65 /* DailyMotivationalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyMotivationalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AB26B52401604D00DFEF65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6AB26B72401604D00DFEF65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0C4A2824017AAD00EA52CB /* MotivationalCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0C4A2624017AAC00EA52CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A0C4A2724017AAD00EA52CB /* MotivationalCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6AB26A92401604D00DFEF65 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +109,7 @@
 				F6AB26CB2401605400DFEF65 /* DailyMotivationalAppTests */,
 				F6AB26D62401605400DFEF65 /* DailyMotivationalAppUITests */,
 				F6AB26B32401604D00DFEF65 /* Products */,
+				1A0C4A2624017AAC00EA52CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +173,7 @@
 				F6AB26AE2401604D00DFEF65 /* Sources */,
 				F6AB26AF2401604D00DFEF65 /* Frameworks */,
 				F6AB26B02401604D00DFEF65 /* Resources */,
+				1A0C4A2A24017AAD00EA52CB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -436,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DailyMotivationalApp/Preview Content\"";
+				DEVELOPMENT_TEAM = EM4Q7Q559J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DailyMotivationalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DailyMotivationalApp/Preview Content\"";
+				DEVELOPMENT_TEAM = EM4Q7Q559J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DailyMotivationalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
