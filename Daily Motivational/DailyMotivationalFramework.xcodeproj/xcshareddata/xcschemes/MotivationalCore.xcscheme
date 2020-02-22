@@ -17,7 +17,7 @@
                BlueprintIdentifier = "1A9BBD9423F450C300AC7CF4"
                BuildableName = "MotivationalCore.framework"
                BlueprintName = "MotivationalCore"
-               ReferencedContainer = "container:Daily Motivational.xcodeproj">
+               ReferencedContainer = "container:DailyMotivationalFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "1A9BBD9423F450C300AC7CF4"
             BuildableName = "MotivationalCore.framework"
             BlueprintName = "MotivationalCore"
-            ReferencedContainer = "container:Daily Motivational.xcodeproj">
+            ReferencedContainer = "container:DailyMotivationalFramework.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -47,7 +47,7 @@
                BlueprintIdentifier = "1A9BBD9C23F450C300AC7CF4"
                BuildableName = "MotivationalCoreTests.xctest"
                BlueprintName = "MotivationalCoreTests"
-               ReferencedContainer = "container:Daily Motivational.xcodeproj">
+               ReferencedContainer = "container:DailyMotivationalFramework.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -75,7 +75,7 @@
             BlueprintIdentifier = "1A9BBD9423F450C300AC7CF4"
             BuildableName = "MotivationalCore.framework"
             BlueprintName = "MotivationalCore"
-            ReferencedContainer = "container:Daily Motivational.xcodeproj">
+            ReferencedContainer = "container:DailyMotivationalFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

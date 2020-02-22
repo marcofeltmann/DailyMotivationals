@@ -17,7 +17,7 @@
                BlueprintIdentifier = "1A9BBD5923F4508A00AC7CF4"
                BuildableName = "Daily Motivational.app"
                BlueprintName = "Daily Motivational"
-               ReferencedContainer = "container:Daily Motivational.xcodeproj">
+               ReferencedContainer = "container:DailyMotivationalFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "1A9BBD7223F4508C00AC7CF4"
                BuildableName = "Daily MotivationalTests.xctest"
                BlueprintName = "Daily MotivationalTests"
-               ReferencedContainer = "container:Daily Motivational.xcodeproj">
+               ReferencedContainer = "container:DailyMotivationalFramework.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "1A9BBD7D23F4508C00AC7CF4"
                BuildableName = "Daily MotivationalUITests.xctest"
                BlueprintName = "Daily MotivationalUITests"
-               ReferencedContainer = "container:Daily Motivational.xcodeproj">
+               ReferencedContainer = "container:DailyMotivationalFramework.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -55,7 +55,7 @@
                BlueprintIdentifier = "1A9BBD9C23F450C300AC7CF4"
                BuildableName = "MotivationalCoreTests.xctest"
                BlueprintName = "MotivationalCoreTests"
-               ReferencedContainer = "container:Daily Motivational.xcodeproj">
+               ReferencedContainer = "container:DailyMotivationalFramework.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "1A9BBD5923F4508A00AC7CF4"
             BuildableName = "Daily Motivational.app"
             BlueprintName = "Daily Motivational"
-            ReferencedContainer = "container:Daily Motivational.xcodeproj">
+            ReferencedContainer = "container:DailyMotivationalFramework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -94,7 +94,7 @@
             BlueprintIdentifier = "1A9BBD5923F4508A00AC7CF4"
             BuildableName = "Daily Motivational.app"
             BlueprintName = "Daily Motivational"
-            ReferencedContainer = "container:Daily Motivational.xcodeproj">
+            ReferencedContainer = "container:DailyMotivationalFramework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

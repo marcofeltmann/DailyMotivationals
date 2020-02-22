@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1A9BBD5523F4508A00AC7CF4 /* Build configuration list for PBXProject "Daily Motivational" */;
+			buildConfigurationList = 1A9BBD5523F4508A00AC7CF4 /* Build configuration list for PBXProject "DailyMotivationalFramework" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -514,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A9BBD5523F4508A00AC7CF4 /* Build configuration list for PBXProject "Daily Motivational" */ = {
+		1A9BBD5523F4508A00AC7CF4 /* Build configuration list for PBXProject "DailyMotivationalFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A9BBD8523F4508C00AC7CF4 /* Debug */,
